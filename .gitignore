@@ -1,0 +1,91 @@
+# Internal Development Files (Not for Public Release)
+.internal/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# PyInstaller
+*.manifest
+*.spec
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+.pytest_cache/
+
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Logs
+*.log
+ghosttype.log*
+ghosttype_crash.log
+
+# Vosk Models (too large for git)
+models/vosk-model-*/
+
+# User Configuration (contains user-specific settings)
+config.json
+
+# Temporary files
+*.tmp
+*.temp
+*.bak
+
+# Build artifacts
+*.exe
+*.app
+*.dmg
+*.AppImage
+*.deb
+*.rpm
+
+# OS-specific
+Thumbs.db
+.DS_Store
+desktop.ini
